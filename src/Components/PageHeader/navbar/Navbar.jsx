@@ -21,6 +21,12 @@ export default function NavBar({ navBarColor }) {
             isSpa={false}
             navColor={navBarColor}
           />
+          <NavItem
+            link={"https://photos.app.goo.gl/v9pRdUPDnYSxjjcK7"}
+            item="گالری تصاویر"
+            isSpa={false}
+            navColor={navBarColor}
+          />
         </div>
         <a className="nav__link" href="#form">
           <img src="/main/call-calling.svg" alt="" />
@@ -38,6 +44,12 @@ export default function NavBar({ navBarColor }) {
         <NavItem
           link={"#footer"}
           item="لینک‌های مفید"
+          isSpa={false}
+          navColor={navBarColor}
+        />
+        <NavItem
+          link={"https://photos.app.goo.gl/v9pRdUPDnYSxjjcK7"}
+          item="گالری تصاویر"
           isSpa={false}
           navColor={navBarColor}
         />
